@@ -1,0 +1,4 @@
+
+class FormatUtils {
+  FormatUtils._();
+}

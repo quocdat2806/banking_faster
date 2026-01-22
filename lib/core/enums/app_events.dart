@@ -1,0 +1,3 @@
+enum AppEvent {
+ detectVpnConnection
+}
