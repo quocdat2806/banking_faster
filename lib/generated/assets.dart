@@ -3,11 +3,14 @@ class Assets {
   Assets._();
 
   static const String fontsOpenSansBold = 'assets/fonts/OpenSans-Bold.ttf';
-  static const String fontsOpenSansExtraBold = 'assets/fonts/OpenSans-ExtraBold.ttf';
+  static const String fontsOpenSansExtraBold =
+      'assets/fonts/OpenSans-ExtraBold.ttf';
   static const String fontsOpenSansLight = 'assets/fonts/OpenSans-Light.ttf';
   static const String fontsOpenSansMedium = 'assets/fonts/OpenSans-Medium.ttf';
-  static const String fontsOpenSansRegular = 'assets/fonts/OpenSans-Regular.ttf';
-  static const String fontsOpenSansSemiBold = 'assets/fonts/OpenSans-SemiBold.ttf';
+  static const String fontsOpenSansRegular =
+      'assets/fonts/OpenSans-Regular.ttf';
+  static const String fontsOpenSansSemiBold =
+      'assets/fonts/OpenSans-SemiBold.ttf';
   static const String svgsAirPlain = 'assets/svgs/air_plain.svg';
   static const String svgsAngel = 'assets/svgs/angel.svg';
   static const String svgsArrowBack = 'assets/svgs/arrow_back.svg';
@@ -20,17 +23,13 @@ class Assets {
   static const String svgsCalendar = 'assets/svgs/calendar.svg';
   static const String svgsCamera = 'assets/svgs/camera.svg';
   static const String svgsCar = 'assets/svgs/car.svg';
-  static const String svgsCarrot = 'assets/svgs/carrot.svg';
   static const String svgsCccd = 'assets/svgs/cccd.svg';
   static const String svgsCheck = 'assets/svgs/check.svg';
   static const String svgsChecklist = 'assets/svgs/checklist.svg';
-  static const String svgsChicken = 'assets/svgs/chicken.svg';
-  static const String svgsCigarettes = 'assets/svgs/cigarettes.svg';
   static const String svgsCommand = 'assets/svgs/command.svg';
   static const String svgsCreditCard = 'assets/svgs/credit_card.svg';
   static const String svgsDate = 'assets/svgs/date.svg';
   static const String svgsDollar = 'assets/svgs/dollar.svg';
-  static const String svgsElectronicTech = 'assets/svgs/electronic_tech.svg';
   static const String svgsEmptyNote = 'assets/svgs/empty_note.svg';
   static const String svgsFastFood = 'assets/svgs/fast_food.svg';
   static const String svgsGift = 'assets/svgs/gift.svg';
@@ -65,6 +64,6 @@ class Assets {
   static const String svgsTelephone = 'assets/svgs/telephone.svg';
   static const String svgsTime = 'assets/svgs/time.svg';
   static const String svgsVip = 'assets/svgs/vip.svg';
-  static const String svgsWardrobe = 'assets/svgs/wardrobe.svg';
-
+  static const String svgsHome = 'assets/svgs/home.svg';
+  static const String svgsQrCode = 'assets/svgs/qr_code.svg';
 }

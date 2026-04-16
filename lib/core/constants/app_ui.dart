@@ -11,6 +11,7 @@ class AppUIConstants {
   static const double extraLargePadding = 32.0;
   static const double extraSmallPadding = 4.0;
 
+  static const double superSmallMargin = 4.0;
   static const double defaultMargin = 16.0;
   static const double smallMargin = 8.0;
   static const double largeMargin = 24.0;
@@ -48,7 +49,6 @@ class AppUIConstants {
   static const double largeSpacing = 24.0;
 
   static const int defaultGridCrossAxisCount = 4;
-  static const double defaultGridChildAspectRatio = 0.7;
   static const double defaultGridCrossAxisSpacing = 8.0;
   static const double defaultGridMainAxisSpacing = 8.0;
   static const double smallGridSpacing = 4.0;
@@ -56,21 +56,8 @@ class AppUIConstants {
   static const int defaultMaxLines = 2;
   static const int singleLine = 1;
 
-  static const Duration shortAnimationDuration = Duration(milliseconds: 200);
-  static const Duration loadMoreDebounceDuration = Duration(milliseconds: 100);
-  static const Duration chartInitDuration = Duration(milliseconds: 800);
-
-  static const double keyboardSlideRatio = 0.35;
-  static const double categoryItemSizeRatio = 0.55;
-  static const double categoryIconSizeRatio = 0.30;
-
   static const double bottomNavigationHeight = 60.0;
   static const double topAddTransactionButtonOffset = 30.0;
-
-  static const double appBarHeight = 56.0;
-  static const double superSmallHeight = 6.0;
-  static const double mediumHeight = 40.0;
-  static const double largeHeight = 80.0;
 
   static BoxDecoration defaultShadow({Color color = AppColorConstants.grey}) {
     return BoxDecoration(

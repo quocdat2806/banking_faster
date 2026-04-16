@@ -140,7 +140,7 @@ lib/
 │   ├── utils/                     # Utility functions and extensions
 │   └── constants/                 # Reusable element like colors, size,
 │   ├── di/                        # Dependency injection                  
-│   └── services/                  # Services like authentication, storage                   # Network utilities, interceptors
+│   └── services/                  # Services like authentication, storage 
 │   ├── helper/                    # Helper method of multiple class
 │   └── theme/                     # Defined theme for app
 │   └── enums/                     # Defined enum for app
@@ -153,15 +153,10 @@ lib/
 |──database     #database
 |──entities     #defined all entities of app 
 |──repositories #include repository for app like authRepository,userRepository
-├── presentation/    # All app features
-│   |-- pages 
-|   |  |____widgets  # include widgets only for this page
-|   |  |home_page    # UI of page
-|   |
-|   | 
-|   |
+├──presentation/    # All app features
+│   |-- pages        # All screen of app like Login,Home,Detail
 │   │-- widgets     # common widgets like AppButton,AppGrid,... 
-│   │-- blocs   
+│   │-- blocs       # All bloc of app like LoginBloc,HomeBloc,DetailBloc
 |   |  |__event     # defined for all event of page
 │   │  |__state     # defined state of page 
 |   |  |__bloc      # handle event
@@ -341,14 +336,14 @@ class UserRepositoryImpl implements UserRepository {
     }
   }
   
-  // Other implementations...
+  
 }
 ```
 
 ### Bloc Implementation
 ```
 @freezed
-class UserState with _$UserState {
+abstract class UserState with _$UserState {
   const factory UserState.initial() = _Initial;
   const factory UserState.loading() = _Loading;
   const factory UserState.loaded(User user) = _Loaded;
@@ -356,7 +351,7 @@ class UserState with _$UserState {
 }
 
 @freezed
-class UserEvent with _$UserEvent {
+abstract class UserEvent with _$UserEvent {
   const factory UserEvent.getUser(String id) = _GetUser;
   const factory UserEvent.refreshUser() = _RefreshUser;
 }
